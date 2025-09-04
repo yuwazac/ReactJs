@@ -1,8 +1,10 @@
-export const UserCard = () => {
+export const UserCard = ({email, name, age }) => {
     return(
+
         <>
-          <h1>jeo dell</h1>
-          <p>Email:jeodel12@gmail.com</p>
+          <h1> Hello My Name Is : {name}</h1>
+          <p>My Email Is : {email}</p>
+          <span>Age Is : {age}</span>
         </>
        
     
