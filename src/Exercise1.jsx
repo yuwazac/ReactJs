@@ -1,4 +1,4 @@
-export const UerCard = () => {
+export const UserCard = () => {
     return(
         <>
           <h1>jeo dell</h1>
@@ -9,4 +9,4 @@ export const UerCard = () => {
     )
 }
 
-export default UerCard;
+export default UserCard;
