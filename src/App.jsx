@@ -1,40 +1,18 @@
-import Blog from './Blog';
-import UserCard from './Exercise1'
-
+import Exercise3 from './Reactfiles/Exercise3'
+import Exercise2 from './Reactfiles/Exercise2'
+import Form from './Reactfiles/Form'
 
 
 function App(){
-
-  return (
+    return(
     <>
-    <UserCard   
-    
-    name={"Jeo Dell"}
-    email={"jeo@gmail.com"}
-    age={25}
-    />
-    
-
-   <>
-   <UserCard 
-   name={"Abdi"}
-   email={"abdi@yahoo.com"}
-   age={28}
-   />
-   </>
-   <>
-   <UserCard 
-   name={"ahmed"}
-   email={"ahmed@hotmail.com"}
-   age={50}
-   />
-   </>
-
+           {/* <Form/> */}
+           <Exercise2/>
     </>
-   
-    
-   
-  )
+ 
+        
+       
+    )
 }
 
 export default App;

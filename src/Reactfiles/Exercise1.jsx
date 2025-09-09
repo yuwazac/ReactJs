@@ -1,3 +1,7 @@
+
+import { useState } from "react";
+
+
 export const UserCard = ({email, name, age }) => {
     return(
 
