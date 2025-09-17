@@ -6,6 +6,7 @@ import Form from './Reactfiles/Form.jsx'
 import Exercise4 from './Reactfiles/Exercise4.jsx'
 import ToDoList from './ToDoList.jsx'
 import UseEffectA from './UseEffectA.jsx'
+import MouseTracker from './MouseTracker.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -13,6 +14,7 @@ createRoot(document.getElementById('root')).render(
     <Form /> */}
     {/* <Exercise4/> */}
     {/* <ToDoList/> */}
-    <UseEffectA/>
+    {/* <UseEffectA/> */}
+    <MouseTracker/>
   </StrictMode>,
 )
