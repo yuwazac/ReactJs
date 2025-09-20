@@ -8,6 +8,8 @@ import ToDoList from './ToDoList.jsx'
 import UseEffectA from './UseEffectA.jsx'
 import MouseTracker from './MouseTracker.jsx'
 
+import CountDownTimer from './CountDownTimer.jsx'
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App />
@@ -15,6 +17,7 @@ createRoot(document.getElementById('root')).render(
     {/* <Exercise4/> */}
     {/* <ToDoList/> */}
     {/* <UseEffectA/> */}
-    <MouseTracker/>
+    {/* <MouseTracker/> */}
+      <CountDownTimer/>
   </StrictMode>,
 )
