@@ -7,8 +7,8 @@ import Exercise4 from './Reactfiles/Exercise4.jsx'
 import ToDoList from './ToDoList.jsx'
 import UseEffectA from './UseEffectA.jsx'
 import MouseTracker from './MouseTracker.jsx'
-
 import CountDownTimer from './CountDownTimer.jsx'
+import GithubApi from './GithubApi.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -18,6 +18,7 @@ createRoot(document.getElementById('root')).render(
     {/* <ToDoList/> */}
     {/* <UseEffectA/> */}
     {/* <MouseTracker/> */}
-      <CountDownTimer/>
+      {/* <CountDownTimer/> */}
+     <GithubApi/> 
   </StrictMode>,
 )
