@@ -9,6 +9,7 @@ import UseEffectA from './UseEffectA.jsx'
 import MouseTracker from './MouseTracker.jsx'
 import CountDownTimer from './CountDownTimer.jsx'
 import GithubApi from './GithubApi.jsx'
+import UserList from './UserList.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -19,6 +20,7 @@ createRoot(document.getElementById('root')).render(
     {/* <UseEffectA/> */}
     {/* <MouseTracker/> */}
       {/* <CountDownTimer/> */}
-     <GithubApi/> 
+     {/* <GithubApi/>  */}
+     <UserList/>
   </StrictMode>,
 )
