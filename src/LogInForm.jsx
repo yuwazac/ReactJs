@@ -7,7 +7,7 @@ const LogInForm = () => {
   const [message, setMessage] = useState("");
 
   const toggle = () => {
-    if (userName !== "" && inputPassword !== "") {
+    if (userName == "abdi" && inputPassword == 123456) {
       setMessage(`Welcome Back! ${userName}`);
       setIsLogIn(true);
     } else {
@@ -50,7 +50,7 @@ const LogInForm = () => {
       ) : (
         <div>
           <strong>{message}</strong><br></br>
-          <button onClick={refund}>LogOut</button>
+          <button onClick={refund}>Logout</button>
         </div>
       )}
     </div>

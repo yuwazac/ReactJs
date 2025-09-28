@@ -11,6 +11,7 @@ import CountDownTimer from './CountDownTimer.jsx'
 import GithubApi from './GithubApi.jsx'
 import UserList from './UserList.jsx'
 import LogInForm from './LogInForm.jsx'
+import Count from './Count.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -23,6 +24,7 @@ createRoot(document.getElementById('root')).render(
       {/* <CountDownTimer/> */}
      {/* <GithubApi/>  */}
      {/* <UserList/> */}
-     <LogInForm/>
+     {/* <LogInForm/> */}
+     <Count/>
   </StrictMode>,
 )
