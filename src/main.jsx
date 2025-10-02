@@ -12,6 +12,7 @@ import GithubApi from './GithubApi.jsx'
 import UserList from './UserList.jsx'
 import LogInForm from './LogInForm.jsx'
 import Count from './Count.jsx'
+import CountReducer from './CounterReducer.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -25,6 +26,7 @@ createRoot(document.getElementById('root')).render(
      {/* <GithubApi/>  */}
      {/* <UserList/> */}
      {/* <LogInForm/> */}
-     <Count/>
+     {/* <Count/> */}
+     <CountReducer/>
   </StrictMode>,
 )
