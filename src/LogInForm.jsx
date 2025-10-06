@@ -7,7 +7,7 @@ const LogInForm = () => {
   const [message, setMessage] = useState("");
 
   const toggle = () => {
-    if (userName == "abdi" && inputPassword == 123456) {
+    if (userName !== " " && inputPassword !== "") {
       setMessage(`Welcome Back! ${userName}`);
       setIsLogIn(true);
     } else {

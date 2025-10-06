@@ -13,6 +13,7 @@ import UserList from './UserList.jsx'
 import LogInForm from './LogInForm.jsx'
 import Count from './Count.jsx'
 import CountReducer from './CounterReducer.jsx'
+import MultipleStepForm from './MultipleStepForm.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -27,6 +28,7 @@ createRoot(document.getElementById('root')).render(
      {/* <UserList/> */}
      {/* <LogInForm/> */}
      {/* <Count/> */}
-     <CountReducer/>
+     {/* <CountReducer/> */}
+     < MultipleStepForm/>
   </StrictMode>,
 )
