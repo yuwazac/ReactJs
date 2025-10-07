@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './Reactfiles/Exercise2.jsx'
+// import App from './Reactfiles/Exercise2.jsx'
 import Form from './Reactfiles/Form.jsx'
 import Exercise4 from './Reactfiles/Exercise4.jsx'
 import ToDoList from './ToDoList.jsx'
@@ -14,11 +14,14 @@ import LogInForm from './LogInForm.jsx'
 import Count from './Count.jsx'
 import CountReducer from './CounterReducer.jsx'
 import MultipleStepForm from './MultipleStepForm.jsx'
+// import App from './ThemeLanguege/App.jsx'
+
+import App from './ShopingCart/App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <App />
-    <Form /> */}
+    {/* <App /> */}
+    {/* <Form /> */} 
     {/* <Exercise4/> */}
     {/* <ToDoList/> */}
     {/* <UseEffectA/> */}
@@ -29,6 +32,8 @@ createRoot(document.getElementById('root')).render(
      {/* <LogInForm/> */}
      {/* <Count/> */}
      {/* <CountReducer/> */}
-     < MultipleStepForm/>
+     {/* < MultipleStepForm/> */}
+     {/* <App/> */}
+     <App/>
   </StrictMode>,
 )
