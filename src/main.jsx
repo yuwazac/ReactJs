@@ -15,8 +15,9 @@ import Count from './Count.jsx'
 import CountReducer from './CounterReducer.jsx'
 import MultipleStepForm from './MultipleStepForm.jsx'
 // import App from './ThemeLanguege/App.jsx'
-
-import App from './ShopingCart/App.jsx'
+import  ContactForm  from '../src/ContactForm.jsx'
+// import App from './ShopingCart/App.jsx'
+import App from '../src/ContactApp/App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -34,6 +35,8 @@ createRoot(document.getElementById('root')).render(
      {/* <CountReducer/> */}
      {/* < MultipleStepForm/> */}
      {/* <App/> */}
+     {/* <App/> */}
+     {/* <ContactForm/> */}
      <App/>
   </StrictMode>,
 )
