@@ -1,5 +1,7 @@
 import { useState, useContext } from 'react';
 import Context from './Context';
+import styles from './app.module.css'
+
 
 const FormContact = () => {
   const [text, setText] = useState('');
@@ -25,9 +27,9 @@ const FormContact = () => {
   };
 
   return (
-    <div>
+    <div className={styles.appContainer}>
       <form onSubmit={handleAdd}>
-        <h3>Add New Contact</h3>
+        <h3 >Add New Contact</h3>
         <label>Name:</label>
         <input
           type="text"

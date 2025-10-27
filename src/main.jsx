@@ -18,6 +18,7 @@ import MultipleStepForm from './MultipleStepForm.jsx'
 import  ContactForm  from '../src/ContactForm.jsx'
 // import App from './ShopingCart/App.jsx'
 import App from '../src/ContactApp/App.jsx'
+import  StudentBoard  from './student/StudentBoard.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -37,6 +38,7 @@ createRoot(document.getElementById('root')).render(
      {/* <App/> */}
      {/* <App/> */}
      {/* <ContactForm/> */}
-     <App/>
+     {/* <App/> */}
+     <StudentBoard/>
   </StrictMode>,
 )
