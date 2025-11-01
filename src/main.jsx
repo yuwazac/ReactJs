@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
+// import './index.css'
 // import App from './Reactfiles/Exercise2.jsx'
 import Form from './Reactfiles/Form.jsx'
 import Exercise4 from './Reactfiles/Exercise4.jsx'
@@ -19,6 +19,7 @@ import  ContactForm  from '../src/ContactForm.jsx'
 // import App from './ShopingCart/App.jsx'
 import App from '../src/ContactApp/App.jsx'
 import  StudentBoard  from './student/StudentBoard.jsx'
+import  FormValidation  from './FormValidation/FormValidation.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -39,6 +40,7 @@ createRoot(document.getElementById('root')).render(
      {/* <App/> */}
      {/* <ContactForm/> */}
      {/* <App/> */}
-     <StudentBoard/>
+     {/* <StudentBoard/> */}
+     <FormValidation/>
   </StrictMode>,
 )
