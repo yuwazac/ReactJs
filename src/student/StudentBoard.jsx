@@ -34,7 +34,7 @@ function StudentBoard() {
         <div className="bg-white rounded-2xl shadow-sm p-6 mb-6">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-2xl font-bold text-gray-800">Welcome back, Student!</h1>
+              <h1 className="text-2xl font-bold text-gray-800 ">Welcome back, Student!</h1>
               <p className="text-gray-500">Here's what's happening with your courses today.</p>
             </div>
             <div className="flex items-center space-x-4">

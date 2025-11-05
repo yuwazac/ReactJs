@@ -34,6 +34,7 @@ const FormValidation = () => {
     setSelectOption("");
     setUserName("");
     setpassword("");
+    setIschecked(false)
   };
 
   const handleCheckbox = (e) => {
