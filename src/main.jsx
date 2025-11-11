@@ -22,6 +22,8 @@ import  StudentBoard  from './student/StudentBoard.jsx'
 import  FormValidation  from './FormValidation/FormValidation.jsx'
 import LifeForm from './LiveFormvalidation/LifeForm.jsx'
 
+import FormHook from './FormHook/FormHook.jsx'
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
@@ -43,6 +45,7 @@ createRoot(document.getElementById('root')).render(
      {/* <App/> */}
      {/* <StudentBoard/> */}
      {/* <FormValidation/> */}
-     <LifeForm/>
+     {/* <LifeForm/> */}
+     <FormHook/>
   </StrictMode>,
 )
