@@ -28,6 +28,8 @@ import { RouterProvider } from 'react-router-dom'
 
 import RouteCenter from './ExerciseNavigate/RouteCenter.jsx'
 // import App from './ReactRouter/App.jsx'
+import routeBlog from '../src/ReactBlog/routeBlog.jsx'
+import { AuthProvider } from './ReactBlog/context/AuthContext.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -53,8 +55,14 @@ createRoot(document.getElementById('root')).render(
      {/* <LifeForm/> */}
      {/* <FormHook/> */}
      {/* <App/> */}
-   <RouterProvider router={RouteCenter}/>
-  
+   {/* <RouterProvider router={RouteCenter}/> */}
+   {/* <RouterProvider router={routeBlog}/> */}
+   <AuthProvider>
+     <RouterProvider router={routeBlog}/>
+   </AuthProvider>
+ 
+
+ 
   
   </StrictMode>,
 )
